@@ -1,0 +1,54 @@
+td {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+
+
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rooms{
+  display:flex;
+  flex-flow:row wrap;
+
+}
+
+.top-content{
+  display:flex;
+  flex-flow:row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons-tab{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buttons-tab button{
+  border:0;
+  margin:3px 0;
+  padding:5px;
+  width:150px;
+  border-radius: 10px;
+  background-color: rgb(88, 182, 208);
+  color:white;
+}
+
+.game{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
