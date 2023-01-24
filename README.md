@@ -26,3 +26,6 @@ NOTE: For this application to run without any troubles, make sure that the ports
 6. In the "client" directory, write "npm start" in the terminal/console
 7. If a browser window has not opened automatically, open it by yourself and go to the http://localhost:3000/ link.
 8. If the link http://localhost:3000/ is not working, check which port has the ReactApp taken and replace it in the link http://localhost:[PORT]/
+
+- If you want to change the port of the client part for the localhost, go to tic-tac-toe-online-game/client/src/data/server.js. There you will be able to change the port to the one which you like.
+- If you want to change the port of the server part, go to tic-tac-toe-online-game/server/index.js. There you will see the line ``` const port = process.env.PORT || 3001; ``` , which contains the port. 
